@@ -1,0 +1,1073 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 10px;
+    box-shadow: 0px 0px 8px black;
+    position:sticky;
+    top: 0;
+background: #fff;
+z-index: 2;
+
+ 
+}
+
+.nav-center .logo img{
+    width: 100px;
+   
+}
+
+.nav-left ul{
+    display: flex;
+    list-style: none;
+
+ 
+}
+.nav-left ul li a{
+    margin: 0 15px;
+    font-size: 18px;
+    color: rgb(64, 55, 55);
+    transition: 0.2s;
+}
+
+.nav-left ul li a:hover{
+    color: rgb(205, 39, 39);
+
+}
+
+.nav-right ul{
+    display: flex;
+    list-style: none;
+    margin-right: 50px;
+ 
+}
+.nav-right ul li a{
+    margin: 0 15px;
+    font-size: 18px;
+    color: rgb(64, 55, 55);
+}
+.nav-right ul li a:hover{
+    color: rgb(205, 39, 39);
+ 
+}
+
+/*------------------------Welcome section-------------------------------------*/
+
+
+.welcome{
+    width: 100%;
+    height: 90vh;
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(/images/spacejoy-IH7wPsjwomc-unsplash.jpg);
+    background-position:center;
+    background-size: cover;
+    
+ 
+}
+
+.welcome .wel-text{
+    color: #fff;
+    position: absolute;
+    top: 300px;
+left: 250px;
+  transform: translate(0%,50%);
+  text-align: center;
+
+
+}
+
+.welcome .wel-text h1{
+    font-size: 60px;
+}
+.welcome .wel-text span{
+    color: red;
+}
+
+.welcome .wel-text p{
+    color: lightgray;
+
+
+}
+
+
+/*------------------------vision mission-------------------------------------*/
+
+
+.vis-mis h1{
+    font-size: 40px;
+    padding: 50px 20px;
+    text-align: center;
+ 
+margin-top: -10px;
+
+}
+
+.vis-mis h1 span{
+    font-weight: 200;
+}
+.vis-mis-container{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 120px;
+}
+
+.vision{
+    flex-basis: 48%;
+    border: 0px solid black;
+    box-shadow:   0px 0px 2px black; 
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 20px  15px;
+    color: black;
+   margin-right: 30px;
+    border-radius: 10px;
+    height:40vh;
+   
+  
+    
+}
+.vision:hover{
+    box-shadow:   0px 0px 5px 
+}
+
+.vision h2{
+    font-size: 40px;
+}
+
+.vision p{
+    font-size: 17px;
+    margin-top: 6px;
+} 
+
+.mission{
+    flex-basis: 48%;
+    border: 0px solid black;
+    box-shadow:   0px 0px 2px black; 
+    height:40vh;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 20px  15px;
+    color:black;
+    margin-right: 90px;
+  
+    border-radius: 10px;
+    opacity: 10;
+
+   
+}
+.mission:hover{
+    box-shadow:   0px 0px 5px 
+}
+
+.mission h2{
+    font-size: 40px;
+}
+
+.mission p{
+    font-size: 17px;
+    margin-top: 6px;
+}  
+
+
+/*------------------------Services container-------------------------------------*/
+.services h1{
+    font-size: 40px;
+    text-align:center;
+    font-weight: 700;
+}
+.services h1 span{
+    font-weight: 200;
+}
+.services{
+    padding: 20px 35px;
+    margin-top: 30px;
+    position: relative;
+ 
+ 
+}
+.ser-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    color: #fff;
+    padding: 20px 35px;
+    margin-top: 40px;
+    background: #FD5D5D;
+    height: 50vh;
+    border-radius: 10px;
+
+}
+
+.ser-button{
+    position: absolute;
+    top: 83%;
+    left: 47%;
+   
+}
+
+.ser-button button{
+    padding: 5px 10px;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    border-radius: 10px;
+    background: #FD5D5D;
+    color: #fff;
+    transition: 0.5s ease;
+    cursor: pointer;
+    box-shadow:   0px 0px 2px black; 
+}
+.ser-button button:hover{
+   background: #FD5D5D;
+   box-shadow:   0px 0px 8px black; 
+}
+
+.ser-container h2{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.ser-container p{
+    font-size: 12px;
+}
+ 
+.ser-container i{
+border: 1px solid #fff;
+padding: 15px;
+border-radius: 50%;
+}
+
+
+
+/*------------------------why choose us-------------------------------------*/
+.choose h1{
+    font-size: 40px;
+    text-align:center;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.choose h1 span{
+    font-weight: 200;
+}
+.choose-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 40px;
+ 
+}
+
+.choose-container h2{
+    font-weight: 500;
+    letter-spacing: 3px;
+} 
+
+.choose-container  p{
+    font-size: 14px;
+}
+.choose-container div{
+    border:0px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow:   0px 0px 4px black; 
+   
+ 
+}
+
+.choose-container div:hover{
+    box-shadow:   0px 0px 7px black; 
+ 
+}
+.choose-container img{
+width: 300px;
+border-radius: 10px;
+}
+
+
+/*------------------------banner -------------------------------------*/
+
+.banner{
+    background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.7)
+  ),
+  url(/images/zoe-schaeffer-D_VjFp1ds1Y-unsplash.jpg);
+ 
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+margin: 90px 20px;
+border-radius: 10px;
+
+   
+}
+
+.banner-text h2{
+    font-size: 30px;
+    font-weight: 500;
+    color:#fff;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+
+.banner-icons img{
+    width: 34px;
+   
+}
+
+.banner-icons {
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    margin-top: 30px;
+    
+}
+
+
+
+.banner-icons .icons{
+    border: px solid black;
+    padding: 14px;
+ border-radius: 10px;
+    background: #FD5D5D;
+   
+}
+
+.happy{
+    color: #fff;
+    font-size: 14px;
+    margin-left: 210px;
+    margin-top: -50px;
+}
+.happy2{
+    color: #fff;
+    font-size: 14px;
+    margin-left: 530px;
+    margin-top: -50px;
+}
+
+.happy3{
+    color: #fff;
+    font-size: 14px;
+    margin-left: 860px;
+    margin-top: -40px;
+}
+
+.happy4{
+    color: #fff;
+    font-size: 14px;
+text-align: right;
+margin-right: 70px;
+margin-top: -40px;
+}
+
+
+/*------------------------Teams----------------------*/
+.team-container {
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: space-around;
+font-size: 12px;
+margin-top: 30px;
+
+}
+.team-container img{
+    width: 100px;
+    border-radius: 50%;
+}
+
+.team-container div{
+    box-shadow:   0px 0px 4px black; 
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.team-container div:hover{
+    box-shadow:   0px 0px 7px black;
+}
+
+
+
+
+
+.teams h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+.teams span{
+    font-weight: 200;
+    margin-left: 5px;
+}
+
+.team-left{
+    flex-basis: 30%;
+}
+
+.team-center{
+    flex-basis: 30%;
+}
+
+.team-right{
+    flex-basis: 30%;
+}
+
+/*----------------our clients------------------------*/
+.clients h1{
+    margin-top: 50px;
+    font-size: 40px;
+    text-align: center;
+}
+.clients h1 span{
+    font-weight: 200;
+}
+
+.clients-img img{
+display:inline-block;
+width: 120px;
+margin: 70px 20px;
+padding: 10px 10px;
+border: 0px solid black;
+border-radius: 10px;
+box-shadow:   0px 0px 1px black; 
+
+
+
+
+   
+}
+.clients-img img:hover{
+    box-shadow:   0px 0px 4px black; 
+}
+
+
+
+/*---------------------------footer----------------------------------------*/
+
+.footer{
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url(/images/footer.jpg);   
+    height: 70vh;
+    background-position: top;
+    background-size: cover;
+    margin: 90px  20px 0 20px;
+border-radius: 10px;
+width: 97%;
+
+}
+
+
+/*---------------footer------------------*/
+
+
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    margin-bottom: 20px;
+  
+  
+}
+ .info-container img{
+    width: 100px;
+    border-radius: 20px;
+    margin-top: -100px;
+ }
+.fot-contact i{
+    color:#fff;
+   display: inline;
+ 
+  
+
+ }
+
+
+.fot-container{
+    margin-top: -140px;
+}
+
+ ul{
+    list-style: none;
+ }
+ .fot-links ul li a{
+    color: #fff;
+    transition: 0.5s;
+    font-size: 18px;
+ }
+
+ .fot-links ul li a:hover{
+    color: red;
+ }
+ .fot-links ul li{
+ margin-top: 10px;
+ }
+
+ .fot-links2 ul li a{
+    color: #fff;
+    transition: 0.5s;
+    font-size: 18px;
+ }
+ .fot-links2 ul li a:hover{
+    color: red;
+ }
+ .fot-links2 ul li{
+    margin-top: 10px;
+ }
+
+ .fot-icons a{
+    color: #fff;
+    transition: 0.5s;
+ }
+ .fot-icons a:hover{
+    color: red;
+ }
+ .fot-icons i{
+    margin: 10px 5px;
+ }
+
+ .fot-container2{
+    margin-top: -140px;
+ }
+
+ .fot-container3{
+    margin-top: -30px;
+ }
+
+ .fot-contact h4{
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 30px;
+    margin-top: -10px;
+    color: #fff;
+    margin-bottom: 10px;
+ }
+
+ .fot-contact i{
+    font-size: 24px;
+    transition: 0.5s;
+ 
+ }
+
+ .fot-contact i:hover{
+    color: red;
+ }
+
+
+
+ .copyright{
+position: absolute;
+top: 85%;
+color: #fff;
+border-top:1px solid white ;
+width: 100%;
+text-align: center;
+
+ }
+
+ .copyright span{
+  color: red;
+  
+ }
+
+nav .fa{
+    display: none;
+}
+
+#menubar {
+    display: none;
+}
+ @media only screen and (max-width:800px){
+
+    .nav-left ul {
+      flex-direction: column;
+ display: block;
+ padding: 30px;
+    }
+    .nav-left{
+        position: absolute;
+        background: green;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        height: 100vh;
+        width: 200px;
+        transition: 1s;
+    }
+    .nav-left ul li a{
+        color: #fff;
+       
+    }
+    .nav-left ul li{
+        margin-top: 20px;
+    }
+
+
+
+    .welcome .wel-text{
+        color: #fff;
+        position: absolute;
+        top: 500px;
+    left: 20px;
+      width: 100%;
+     
+    
+    }
+
+    .welcome .wel-text h1{
+        font-size: 25px;
+    }
+    .welcome .wel-text p{
+        font-size: 10px;
+    }
+
+
+    .vis-mis-container{
+        flex-direction: column;
+        width: 80%;
+   
+      
+    }
+    .mission{
+        margin-top: 30px;
+        box-shadow: none;
+       
+    
+
+    }
+    .mission p{
+        font-size: 14px;
+    }
+    .vision{
+        box-shadow: none;
+        margin-right: 100px;
+    }
+    .vision p{
+        font-size: 14px;
+    }
+
+    .ser-container{
+        flex-direction: column;
+     
+       
+        height: 100vh;
+       
+    }
+    .ser-container div{
+        margin-top: -70px;
+    }
+    .ser-container .ser-center{
+        margin-bottom: 20px;
+    }
+    .ser-container .ser-right{
+        margin-bottom: 50px;
+    }
+
+    .ser-button button{
+margin-left: -30px;
+margin-top: 40px;
+    }
+    .ser-container i{
+       font-size: 18px;
+       margin-top: 10px;
+    }
+
+    .ser-container h2{
+        margin-top: -5px;
+    }
+
+    .choose-container{
+        flex-direction: column;
+    }
+
+    .choose-container div{
+        margin-top: 30px;
+    }
+
+    .banner{
+        display: none;
+    }
+
+    .team-container{
+        flex-direction: column;
+        width: 80%;
+        align-items: center;
+        margin-left: 50px;
+    }
+    .teams h1{
+        margin-top: 40px;
+    }
+    .team-container div{
+        margin-top: 30px;
+    }
+    .clients-img {
+        margin-top: 30px;
+    }
+    .clients-img img{
+        display:inline-block;
+        width: 18%;
+        margin: 10px 30px;
+        padding:10px 10px;
+
+        
+        }
+        .footer{
+            flex-direction: column;
+            width: 93%;
+        }
+
+        .info-container img{
+            width: 70px;
+            border-radius: 20px;
+            margin-top: 5px;
+            margin-bottom: -10px;
+         }
+         .fot-links ul{
+            margin-top: 130px;
+            margin-bottom: 90px;
+         }
+
+         .fot-links ul li{
+            display: inline-block;
+            margin: 10px 10px;
+         }
+         .fot-links2 ul{
+            margin-top: 30px;
+         }
+         .fot-links2 ul li{
+            display: inline-block;
+            margin: 10px 10px;
+         }
+         .fot-container3{
+            margin-bottom: 80px;
+            margin-top: 10px;
+         }
+
+         .fot-contact i{
+            font-size: 18px;
+            transition: 0.5s;
+            margin-left: 10px;
+       
+         }
+         .fot-contact h4{
+            font-size: 15px;
+         }
+        
+         nav .fa{
+            display: block;
+            margin: 10px;
+            cursor: pointer;
+            font-size: 20px;
+            color: #fff;
+        }
+        
+        #menubar {
+            display: block;
+            cursor: pointer;
+            font-size: 25px;
+        }
+
+   
+ }
+
+
+
+ /*-------------About Us---------------------*/
+ .teams h1{
+    margin-top: 70px;
+ }
+
+ .company{
+    width: 100%;
+
+
+ }
+ .company p{
+    font-size: 22px;
+    width: 70%;
+    text-align: center;
+    margin-left: 200px;
+   
+ }
+
+ .company h1{
+    font-size: 40px;
+    text-align: center;
+   margin: 50px 0;
+ }
+
+ .company h1 span{
+    font-weight: 200;
+ }
+
+
+ @media only screen and (max-width:800px){
+    .company h1{
+        font-size: 30px;
+       
+     }
+
+     .para p{
+        font-size:14px ;
+   margin-left: 90px;
+   width: 60%;
+   text-align: left;
+     }
+  
+ }
+
+  /*-------------About Us- end--------------------*/
+
+
+   /*-------------Gallery start---------------------*/
+
+   .swiper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    margin-top: 50px;
+    border-radius: 20px;
+    margin-bottom: -100px;
+  
+  }
+
+
+  .swiper1 h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 70px;
+  }
+
+  .swiper1 h1 span{
+    font-weight: 200;
+  }
+
+  .swiper-button-next{
+    color: #FD5D5D;
+    margin-right: 90px;
+    margin-top: -100px;
+  }
+
+  .swiper-button-prev{
+    color: #FD5D5D;
+    margin-left: 90px;
+    margin-top: -100px;
+  }
+
+
+  @media only screen and (max-width:800px){
+    .swiper1 h1{
+        font-size: 30px;
+    }
+    .swiper-slide img {
+      
+        width: 80%;
+        height: 80%;
+        margin-bottom: 0px;
+       
+      }
+      .swiper-button-next{
+position: absolute;
+top: 63%;
+left: 92%;
+      }
+      .swiper-button-prev{
+        position: absolute;
+        top: 63%;
+       left:  -19%;
+              }
+
+  }
+
+
+    /*-------------Gallerys End---------------------*/
+
+
+        /*-------------service start---------------------*/
+
+
+.serv h1{
+    font-size: 45px;
+    text-align: center;
+    margin-top: 50px;
+
+}
+.serv h1 span{
+    font-weight: 200;
+}
+
+
+.serv-cont {
+    font-size: 22px;
+  margin-left: 200px;
+  margin-top: 80px;
+
+}
+
+.serv-cont ul{
+    list-style-type: disc ;
+
+    text-align: left;
+}
+
+.serv-cont ul li{
+    margin-top: 20px;
+}
+
+
+
+.serv-cont  p{
+  margin: 80px 10px;
+  width: 90%;
+}
+.serv-cont span{
+    font-weight: bold;
+}
+
+@media only screen and (max-width:800px){
+    .serv h1{
+        font-size: 35px;
+      
+    
+    }
+
+    .serv-cont ul{
+      font-size: 18px;
+      margin-left: -170px;
+      width: 150%;
+
+    
+       
+    }
+    .serv-cont {
+      text-align: left;
+    
+    }
+    .serv-cont p{
+        font-size: 18px;
+        margin-left: -170px;
+        width: 150%;
+     
+    
+    }
+}
+          /*-------------service end---------------------*/
+
+
+          /*------------------main projects-----------*/
+
+
+
+
+.projects h1{
+    font-size: 40px;
+  margin: 50px 0;
+    text-align: center;
+
+}
+
+.projects h1 span{
+  font-weight: 200;
+
+}
+
+.projects p{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 22px;
+   
+
+}
+
+table th, td{
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 10px;
+}
+table{
+    margin:10% 20% ;
+   
+}
+
+table img{
+    width: 100%;
+ 
+}
+
+@media only screen and (max-width:800px){
+    .projects h1{
+        font-size: 24px;
+     
+    
+    }
+    .projects p{
+        font-size: 14px;
+     
+    
+    }
+    table {
+       
+        width: 90%;
+        margin-left:6%;
+    }
+}
+
+
+          /*------------------main projects end-------*/
+
